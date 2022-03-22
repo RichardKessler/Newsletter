@@ -1,0 +1,24 @@
+{
+  "name": "newsletter",
+  "version": "1.0.0",
+  "description": "a newsletter signup",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RichardKessler/Newsletter.git"
+  },
+  "author": "Richard Kessler",
+  "license": "GPL-2.0-only",
+  "bugs": {
+    "url": "https://github.com/RichardKessler/Newsletter/issues"
+  },
+  "homepage": "https://github.com/RichardKessler/Newsletter#readme",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "express": "^4.17.3"
+  }
+}
