@@ -3,13 +3,15 @@ const express = require('express');
 const axios = require('axios');
 const app = express();
 const PORT = 3000;
+const dotenv = require('dotenv').config()
+
 
 const client = require("@mailchimp/mailchimp_marketing");
 
 
 client.setConfig({
-    apiKey: "3c876731ee5205e55ac66dae7259c743-us14",
-    server: "us14",
+    apiKey: process.env.API_KEY,
+    server: process.env.SERVER,
 });
 
 // async function run() {
