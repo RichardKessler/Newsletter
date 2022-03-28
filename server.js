@@ -14,6 +14,7 @@ client.setConfig({
     server: process.env.SERVER,
 });
 
+
 // async function run() {
 //   const response = await client.ping.get();
 //   console.log(response);
